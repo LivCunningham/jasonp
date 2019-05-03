@@ -85,3 +85,8 @@ main article span {
   background-image: url('/Images/react-2.png');
   height: 100px;
 }
+
+.code {
+  background-image: url('/Images/code.png');
+  height: 100px;
+}
