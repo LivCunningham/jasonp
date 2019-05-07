@@ -4,89 +4,216 @@
 
 html {
   height: 100%;
-  margin: 10rem;
+  margin: 25rem;
   margin-top: 1rem;
+  background-color: black;
 }
 
 body {
-  min-height: 100%;
-  background-color: black;
-  display: flex;
-  align-content: center;
-  flex-direction: column;
+  margin-top: -5rem;
 }
 
 header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 6rem;
   background-image: url(/Images/space.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 600px;
 }
 
-.header-items {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  padding-top: 2rem;
-  padding-bottom: 5rem;
+header img {
+  height: 175px;
+  width: 180px;
+  border-radius: 0.4rem;
 }
 
-.header-items img {
-  height: 275px;
-  border-radius: 10px;
-}
-
-.header-items div {
+.Intro {
+  padding-left: 2rem;
+  padding-right: 2rem;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 4px;
-  border-radius: 4px;
+  height: 7rem;
+  margin-left: 2rem;
+  height: 100px;
 }
 
-.header-items h1,
-.header-items h2 {
-  line-height: 1.6;
-  font-size: 3rem;
+/* #corner {
+  display: flex;
+  background: rgba(255, 255, 255, 0.5);
+  height: 20px;
+  width: 20px;
+  margin-right: 11rem;
+  margin-top: 6rem;
+  float: left;
+} */
+
+header h2 {
+  font-size: 11px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: -1rem;
 }
 
-.header-items h2 {
-  font-size: 2rem;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.four-images {
-  background: rgba(0, 0, 0, 0.2);
+.games {
   display: flex;
   justify-content: center;
-  justify-content: space-around;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
   margin-top: 5rem;
+  background: rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+#one {
+  height: 140px;
+  width: 150px;
+  padding-right: 4rem;
+  padding-left: 0.2rem;
+}
+
+#rain {
+  height: 140px;
+  width: 150px;
+  padding-right: 2rem;
+}
+
+#sense {
+  height: 140px;
+  width: 150px;
+  padding-right: 2rem;
+}
+
+#bomb {
+  height: 140px;
+  width: 150px;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
+  padding-top: 5rem;
+  background-color: #031019;
 }
 
-main article p {
-  color: rgb(0, 0, 0);
-  background: rgb(255, 255, 255);
-  border-radius: 4px;
-  border-radius: 4px;
+#react {
+  width: 805px;
+  height: 100px;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
 }
 
-main article h2 {
-  color: white;
+.paragraph1 {
+  background-color: white;
+  padding-top: 1rem;
+  height: 144px;
+  border-radius: 0.4rem;
+  margin-top: -2rem;
+  margin-bottom: 3rem;
 }
 
-main article span {
+.paragraph1 h2 {
+  padding-left: 1rem;
+}
+
+.paragraph1 p {
+  padding-left: 1rem;
+  padding-top: -5rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  background-color: white;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+}
+
+#code {
+  width: 805px;
+  height: 100px;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+}
+
+.paragraph2 {
+  background-color: white;
+  padding-top: 1rem;
+  height: 144px;
+  border-radius: 0.4rem;
+  margin-top: -2rem;
+}
+
+.paragraph2 h2 {
+  background-color: white;
+  padding-left: 1rem;
+}
+
+.paragraph2 p {
+  padding-left: 1rem;
+  padding-top: -5rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+  border-bottom-left-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+}
+
+.button {
+  background-color: #0081d5;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  float: right;
+  height: 32px;
+  margin-top: -4rem;
+  margin-bottom: -1rem;
+  margin-right: 1rem;
+  border-radius: 0.4rem;
+}
+
+.button2 {
+  background-color: #0081d5;
+  border: none;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  float: right;
+  margin-top: -2rem;
+  margin-bottom: -1rem;
+  margin-right: 1rem;
+  height: 32px;
+  border-radius: 0.4rem;
+}
+
+.button2 p {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: whitesmoke;
+}
+
+.button p {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: whitesmoke;
+}
+
+h2 span {
   font-size: 0.8rem;
 }
 
-.react {
-  background-image: url('/Images/react-2.png');
-  height: 100px;
+footer {
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #031019;
 }
 
-.code {
-  background-image: url('/Images/code.png');
-  height: 100px;
+footer h3 {
+  color: white;
+}
+
+footer p {
+  color: white;
+  font-size: 9px;
+}
+
+#tweeters {
+  height: 60px;
+  width: 60px;
 }
