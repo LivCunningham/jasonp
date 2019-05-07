@@ -11,6 +11,7 @@ html {
 
 body {
   margin-top: -5rem;
+  width: 828px;
 }
 
 header {
@@ -23,32 +24,27 @@ header {
 }
 
 header img {
-  height: 175px;
-  width: 180px;
+  height: 145px;
+  width: 160px;
   border-radius: 0.4rem;
+}
+.intro-section {
+  display: flex;
+  flex-direction: row;
 }
 
 .Intro {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 4px;
-  height: 7rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
+  margin-right: 6rem;
   height: 100px;
+  margin-top: -0.5rem;
 }
 
-/* #corner {
-  display: flex;
-  background: rgba(255, 255, 255, 0.5);
-  height: 20px;
-  width: 20px;
-  margin-right: 11rem;
-  margin-top: 6rem;
-  float: left;
-} */
-
-header h2 {
+.Intro h2 {
   font-size: 11px;
   font-family: 'Roboto', sans-serif;
   margin-top: -1rem;
@@ -94,7 +90,7 @@ main {
 }
 
 #react {
-  width: 805px;
+  width: 828px;
   height: 100px;
   border-top-left-radius: 0.4rem;
   border-top-right-radius: 0.4rem;
@@ -124,7 +120,7 @@ main {
 }
 
 #code {
-  width: 805px;
+  width: 828px;
   height: 100px;
   border-top-left-radius: 0.4rem;
   border-top-right-radius: 0.4rem;
@@ -155,7 +151,7 @@ main {
 .button {
   background-color: #0081d5;
   border: none;
-  padding: 10px;
+  padding: px 10px;
   text-align: center;
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
